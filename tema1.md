@@ -2,13 +2,13 @@
 
 ## Ejercicio 1
 
-1. **Consultar en el catálogo de alguna tienda de informática el precio de un
+**Consultar en el catálogo de alguna tienda de informática el precio de un
 ordenador tipo servidor y calcular su coste de amortización a cuatro y siete
 años. Consultar [este artículo en Infoautónomos sobre el tema](https://infoautonomos.eleconomista.es/consultas-a-la-comunidad/988/).**
 
 ## Ejercicio 2
 
-1. **Usando las tablas de precios de servicios de alojamiento en Internet “clásicos”,
+**Usando las tablas de precios de servicios de alojamiento en Internet “clásicos”,
 es decir, que ofrezcan *Virtual Private Servers* o servidores físicos, y de proveedores
 de servicios en la nube, comparar el coste durante un año de un ordenador con un
 procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en los
@@ -18,7 +18,7 @@ comprada se usa solo el 1% o el 10% del tiempo.**
 
 ## Ejercicio 3
 
-1. **En general, cualquier ordenador con menos de 5 o 6 años tendrá estos *flags*.
+**En general, cualquier ordenador con menos de 5 o 6 años tendrá estos *flags*.
 ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden? Si usas una
 máquina virtual, ¿qué resultado da? ¿Y en una Raspberry Pi o, si tienes acceso,
 [el procesador del móvil](https://stackoverflow.com/questions/26239956/how-to-get-specific-information-of-an-android-device-from-proc-cpuinfo-file)?**
@@ -182,8 +182,7 @@ La información de los *flags* se puede consultar [aquí](https://en.wikichip.or
 Al ser un procesador basado en ARM, y además al estar en un dispositivo móvil, éste no
 dispone de tecnología de virtualización. Esto se debe a que posiblemente la virtualización
 sea demasiado costosa en un teléfono móvil, teniendo en cuenta las limitadas capacidades
-de CPU y batería que tienen éstos, y que por tanto, supondría demasiada carga para
-el dispositivo.
+de CPU y batería que tienen éstos.
 
 ## Ejercicio 4
 
@@ -193,12 +192,40 @@ como se indica arriba.**
 2. **Instalar un hipervisor para gestionar máquinas virtuales, que más adelante
 se podrá usar en pruebas y ejercicios.**
 
+### Apartado 1
+
+Al ejecutar ```kvm-ok```, he obtenido lo siguiente:
+
+```
+INFO: /dev/kvm exists
+KVM acceleration can be used
+
+```
+
+He ejecutado también ```LC_ALL=C lscpu | grep Virtualization```,
+y he obtenido la siguiente salida:
+
+```
+Virtualization:      VT-x
+```
+
+Por tanto, mi ordenador tiene el módulo KVM instalado.
+
+### Apartado 2
+
+En mi ordenador ya tenía instalado el hipervisor **VirtualBox**, de Oracle, el cuál
+no es software libre. Lo he elegido más que nada por comodidad, ya que he trabajo con
+él durante algún tiempo y más o menos sé manejarme.
+
+![VirtualBox](img/tema1/virtualbox.png)
+
+
 ## Ejercicio 5
 
-1. **Darse de alta en servicios de nube usando ofertas gratuitas o cupones que
+**Darse de alta en servicios de nube usando ofertas gratuitas o cupones que
 pueda proporcionar el profesor.**
 
 ## Ejercicio 6
 
-1. **Darse de alta en una web que permita hacer pruebas con alguno de los
+**Darse de alta en una web que permita hacer pruebas con alguno de los
 sistemas de gestión de nube anteriores.**
