@@ -61,7 +61,7 @@ para cada uno de los casos:
 
 * Para HispaWeb, el coste es:
 
-<img src="https://latex.codecogs.com/gif.latex?Coste\;HispaWeb=120\euro\times0.01=1.2 \euro" />
+<img src="https://latex.codecogs.com/gif.latex?Coste\;HispaWeb=120\euro\times0.01=1.2\euro" />
 
 Si usaramos la infraestructura solo un 10% del tiempo, el coste sería el siguiente,
 para cada uno de los casos:
