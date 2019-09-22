@@ -234,3 +234,11 @@ que pueden ser utilizados.
 
 **Darse de alta en una web que permita hacer pruebas con alguno de los
 sistemas de gestión de nube anteriores.**
+
+He creado una página en **WordPress** con AWS siguiendo [este tutorial](https://aws.amazon.com/es/getting-started/tutorials/launch-a-wordpress-website/).
+
+![AWS estado WordPress](img/tema1/aws-wordpress.png)
+
+Aquí se puede ver la página resultante:
+
+![Página Wordpress](img/tema1/wordpress.png)
