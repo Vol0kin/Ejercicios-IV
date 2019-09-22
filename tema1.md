@@ -16,13 +16,13 @@ del bien tendríamos que ahorrar anualmente durante *X* años para poder sustitu
 
 - Para el caso de cuatro años, tenemos la siguiente amortización:
 
-<img src="https://latex.codecogs.com/gif.latex?\text{Amortizacion} = \frac{Valor \; Real}{Tiempo \; que \; dura} = \frac{453.72 \euro}{4} = 113.43\euro" />
+<img src="https://latex.codecogs.com/gif.latex?\text{Amortizacion}=\frac{Valor\;Real}{Tiempo\;que\;dura}=\frac{453.72\euro}{4}=113.43\euro" />
 
 Por tanto, habría que ahorrar unos 113.43€ anualmente para poder amortizar su coste.
 
 - Para el caso de siete años, tenemos la siguiente amortización:
 
-<img src="https://latex.codecogs.com/gif.latex?\text{Amortizacion} = \frac{Valor \; Real}{Tiempo \; que \; dura} = \frac{453.72 \euro}{7} = 64.82\euro" />
+<img src="https://latex.codecogs.com/gif.latex?\text{Amortizacion}=\frac{Valor\;Real}{Tiempo\;que\;dura}=\frac{453.72\euro}{7}=64.82\euro" />
 
 Por tanto, habría que ahorrar unos 64.82€ anualmente para poder amortizar su coste.
 
@@ -46,33 +46,33 @@ El coste anual en cada caso es el siguiente:
 
 * Para OVS, el coste anual es:
 
-<img src="https://latex.codecogs.com/gif.latex?Coste \; OVS = 19.35 \euro \times 12 = 232.20\euro" />
+<img src="https://latex.codecogs.com/gif.latex?Coste\;OVS=19.35\euro\times12=232.20\euro" />
 
 * Para HispaWeb, el coste es:
 
-<img src="https://latex.codecogs.com/gif.latex?Coste \; HispaWeb = 10 \euro \times 12 = 120 \euro" />
+<img src="https://latex.codecogs.com/gif.latex?Coste\;HispaWeb=10\euro\times12=120\euro" />
 
 Si usaramos la infraestructura solo un 1% del tiempo, el coste sería el siguiente,
 para cada uno de los casos:
 
 * Para OVS, el coste sería:
 
-<img src="https://latex.codecogs.com/gif.latex?Coste \; OVS = 232.20 \euro \times 0.01 = 2.32 \euro" />
+<img src="https://latex.codecogs.com/gif.latex?Coste\;OVS=232.20\euro\times0.01=2.32\euro" />
 
 * Para HispaWeb, el coste es:
 
-<img src="https://latex.codecogs.com/gif.latex?Coste \; HispaWeb = 120 \euro \times 0.01 = 1.2 \euro" />
+<img src="https://latex.codecogs.com/gif.latex?Coste\;HispaWeb=120\euro\times0.01=1.2 \euro" />
 
 Si usaramos la infraestructura solo un 10% del tiempo, el coste sería el siguiente,
 para cada uno de los casos:
 
 * Para OVS, el coste sería:
 
-<img src="https://latex.codecogs.com/gif.latex?Coste \; OVS = 232.20 \euro \times 0.1 = 23.2 \euro" />
+<img src="https://latex.codecogs.com/gif.latex?Coste\;OVS=232.20\euro\times0.1=23.2\euro" />
 
 * Para HispaWeb, el coste es:
 
-<img src="https://latex.codecogs.com/gif.latex?Coste \; HispaWeb = 120 \euro \times 0.1 = 12 \euro" />
+<img src="https://latex.codecogs.com/gif.latex?Coste\;HispaWeb=120\euro\times0.1=12\euro" />
 
 ## Ejercicio 3
 
