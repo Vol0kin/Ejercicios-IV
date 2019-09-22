@@ -4,7 +4,7 @@
 
 1. **Consultar en el catálogo de alguna tienda de informática el precio de un
 ordenador tipo servidor y calcular su coste de amortización a cuatro y siete
-años. Consultar ![este artículo en Infoautónomos sobre el tema](https://infoautonomos.eleconomista.es/consultas-a-la-comunidad/988/).**
+años. Consultar [este artículo en Infoautónomos sobre el tema](https://infoautonomos.eleconomista.es/consultas-a-la-comunidad/988/).**
 
 ## Ejercicio 2
 
@@ -21,7 +21,7 @@ comprada se usa solo el 1% o el 10% del tiempo.**
 1. **En general, cualquier ordenador con menos de 5 o 6 años tendrá estos *flags*.
 ¿Qué modelo de procesador es? ¿Qué aparece como salida de esa orden? Si usas una
 máquina virtual, ¿qué resultado da? ¿Y en una Raspberry Pi o, si tienes acceso,
-![el procesador del móvil](https://stackoverflow.com/questions/26239956/how-to-get-specific-information-of-an-android-device-from-proc-cpuinfo-file)?**
+[el procesador del móvil](https://stackoverflow.com/questions/26239956/how-to-get-specific-information-of-an-android-device-from-proc-cpuinfo-file)?**
 
 ## Ejercicio 4
 
