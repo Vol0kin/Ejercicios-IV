@@ -225,6 +225,11 @@ no es software libre. Lo he elegido más que nada por comodidad, ya que he traba
 **Darse de alta en servicios de nube usando ofertas gratuitas o cupones que
 pueda proporcionar el profesor.**
 
+He creado una cuenta en **Amazon Web Services**, ya que ofrece servicios gratuitios
+que pueden ser utilizados.
+
+![AWS](img/tema1/aws.png)
+
 ## Ejercicio 6
 
 **Darse de alta en una web que permita hacer pruebas con alguno de los
