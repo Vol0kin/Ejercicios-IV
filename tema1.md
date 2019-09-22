@@ -1,10 +1,30 @@
-# Tema 1: Introducción a la infraestructura virtual: concepto y soporte físico
+# Introducción a la infraestructura virtual: concepto y soporte físico
 
 ## Ejercicio 1
 
 **Consultar en el catálogo de alguna tienda de informática el precio de un
 ordenador tipo servidor y calcular su coste de amortización a cuatro y siete
 años. Consultar [este artículo en Infoautónomos sobre el tema](https://infoautonomos.eleconomista.es/consultas-a-la-comunidad/988/).**
+
+El servidor elegido es [este](https://www.pccomponentes.com/dell-poweredge-t130-intel-xeon-v6-e3-1220-8-gb-1tb).
+
+Para calcular la amortización, tenemos que dividir el valor real del servidor, es decir, 453.72€
+(el precio sin IVA) entre el tiempo que dura. El valor obtenido nos indica cuánto del valor real
+del bien tendríamos que ahorrar anualmente durante *X* años para poder sustituirlo al cabo de esos
+*X* años por un nuevo bien del mismo valor en caso de ser necesario.
+
+
+- Para el caso de cuatro años, tenemos la siguiente amortización:
+
+<img src="https://latex.codecogs.com/gif.latex?\text{Amortizacion} = \frac{Valor \; Real}{Tiempo \; que \; dura} = \frac{453.72 \euro}{4} = 113.43\euro" />
+
+Por tanto, habría que ahorrar unos 113.43€ anualmente para poder amortizar su coste.
+
+- Para el caso de siete años, tenemos la siguiente amortización:
+
+<img src="https://latex.codecogs.com/gif.latex?\text{Amortizacion} = \frac{Valor \; Real}{Tiempo \; que \; dura} = \frac{453.72 \euro}{7} = 64.82\euro" />
+
+Por tanto, habría que ahorrar unos 64.82€ anualmente para poder amortizar su coste.
 
 ## Ejercicio 2
 
@@ -15,6 +35,44 @@ procesador estándar (escogerlo de forma que sea el mismo tipo de procesador en 
 dos vendedores) y con el resto de las características similares (tamaño de disco
 duro equivalente a transferencia de disco duro) en el caso de que la infraestructura
 comprada se usa solo el 1% o el 10% del tiempo.**
+
+He consultado dos páginas. La primera es la de [OVS](https://www.ovh.es/vps/vps-cloud.xml),
+donde he seleccionado la segunda opción (VPS Cloud 2), la cuál tiene un coste de 19.35€ al mes,
+con 2 CPUs, 4GB de RAM y 50 GB de almacenamiento. La segunda es la de [HispaWeb](https://hispaweb.com/cart.php#kvm-lin),
+donde he escogido la opción Lowcost Cloud Server S, la cuál tiene un coste de 10€ al mes,
+con 2CPUs, 4GB de RAM y 40 GB de almacenamiento.
+
+El coste anual en cada caso es el siguiente:
+
+* Para OVS, el coste anual es:
+
+<img src="https://latex.codecogs.com/gif.latex?Coste \; OVS = 19.35 \euro \times 12 = 232.20\euro" />
+
+* Para HispaWeb, el coste es:
+
+<img src="https://latex.codecogs.com/gif.latex?Coste \; HispaWeb = 10 \euro \times 12 = 120 \euro" />
+
+Si usaramos la infraestructura solo un 1% del tiempo, el coste sería el siguiente,
+para cada uno de los casos:
+
+* Para OVS, el coste sería:
+
+<img src="https://latex.codecogs.com/gif.latex?Coste \; OVS = 232.20 \euro \times 0.01 = 2.32 \euro" />
+
+* Para HispaWeb, el coste es:
+
+<img src="https://latex.codecogs.com/gif.latex?Coste \; HispaWeb = 120 \euro \times 0.01 = 1.2 \euro" />
+
+Si usaramos la infraestructura solo un 10% del tiempo, el coste sería el siguiente,
+para cada uno de los casos:
+
+* Para OVS, el coste sería:
+
+<img src="https://latex.codecogs.com/gif.latex?Coste \; OVS = 232.20 \euro \times 0.1 = 23.2 \euro" />
+
+* Para HispaWeb, el coste es:
+
+<img src="https://latex.codecogs.com/gif.latex?Coste \; HispaWeb = 120 \euro \times 0.1 = 12 \euro" />
 
 ## Ejercicio 3
 
